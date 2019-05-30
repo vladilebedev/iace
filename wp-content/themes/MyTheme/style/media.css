@@ -1,0 +1,354 @@
+/*от 1200px*/
+@media (min-width: 1200px) {
+    .header_wrap {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo_container {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+    }
+
+    .icon_container {
+        float: right;
+        margin-right: 5%;
+    }
+
+    .icon_container ul li {
+        display: inline-block;
+        width: 180px;
+    }
+
+    .nav_menu {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .nav_menu ul {
+        margin-left: 25px;
+    }
+
+    .section_content_wrap {
+        width: 1200px;
+    }
+
+    .menu-mymenu-container ul li:after {
+        content: '|';
+        color: #fff;
+        position: absolute;
+        top: 35%;
+        right: -3%;
+    }
+
+    .menu-mymenu-container ul li:last-child:after {
+        content: '';
+    }
+
+    .section_content ul li {
+        display: inline-block;
+        margin: 0 10px;
+        width: 31%;
+    }
+
+    .section_content ul li a .news_cartune {
+        height: 200px;
+    }
+
+    .form_div {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .form_left {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+    .form_right {
+        overflow: hidden;
+        width: 40%;
+    }
+
+    .main_form button {
+        float: right;
+    }
+
+    .footer_wrap {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*все разрешения до 1200px*/
+@media (max-width: 1199px) {
+    .header_wrap,
+    .section_content_wrap,
+    .form_div,
+    .footer_wrap {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo_container {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+    }
+
+    .icon_container {
+        width: 50%;
+        float: right;
+        margin-right: 5%;
+    }
+
+    .icon_container ul li {
+        display: inline-block;
+        width: 30%;
+    }
+
+    .nav_menu ul {
+        margin-left: 25px;
+    }
+
+    .menu-mymenu-container ul li:after {
+        content: '|';
+        color: #fff;
+        position: absolute;
+        top: 35%;
+        right: -3%;
+    }
+
+    .menu-mymenu-container ul li:last-child:after {
+        content: '';
+    }
+
+    .section_content ul li {
+        display: inline-block;
+        margin: 0 10px;
+        width: 30%;
+    }
+
+    .section_content ul li a .news_cartune {
+        height: 16vw;
+    }
+
+    .form_left {
+        width: 30%;
+        float: left;
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+
+    .form_right {
+        overflow: hidden;
+        width: 30%;
+    }
+
+    .main_form button {
+        float: right;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo_container {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon_container {
+        margin-top: 20px;
+    }
+
+    .icon_container ul {
+        width: 100%;
+    }
+
+    .icon_container ul li {
+        display: inline-block;
+        width: 32%;
+    }
+
+    .nav_menu ul {
+        margin-left: 25px;
+    }
+
+    .menu-mymenu-container ul li:after {
+        content: '|';
+        color: #fff;
+        position: absolute;
+        top: 35%;
+        right: -3%;
+    }
+
+    .menu-mymenu-container ul li:last-child:after {
+        content: '';
+    }
+
+    .section_content ul li {
+        display: inline-block;
+        margin: 0 10px;
+
+        width: 30%;
+    }
+
+    .section_content ul li a .news_cartune {
+        height: 16vw;
+    }
+
+    .form_left {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+    .form_right {
+        overflow: hidden;
+        width: 40%;
+    }
+
+    .main_form button {
+        float: right;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+    .logo_container {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon_container {
+        margin-top: 20px;
+    }
+
+    .icon_container ul {
+        width: 100%;
+    }
+
+    .icon_container ul li {
+        display: inline-block;
+        width: 32%;
+    }
+
+    .nav_menu {
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu-mymenu-container ul li:after {
+        content: '|';
+        color: #fff;
+        position: absolute;
+        top: 35%;
+        right: -3%;
+    }
+
+    .menu-mymenu-container ul li:last-child:after {
+        content: '';
+    }
+
+    .section_content ul li {
+        display: inline-block;
+        margin: 0 10px;
+
+        width: 28%;
+    }
+
+    .section_content ul li a .news_cartune {
+        height: 16vw;
+    }
+
+    .form_left,
+    .form_right {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .main_form .div_but {
+        width: 125px;
+        margin: 0 auto;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .logo_container {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icon_container {
+        margin-top: 20px;
+    }
+
+    .icon_container ul li {
+        margin-top: 20px;
+    }
+
+    .nav_menu {
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-mymenu-container {
+        text-align: center;
+    }
+
+    .menu-mymenu-container ul li{
+        display: block;
+        width: 150px;
+        text-align: center;
+    }
+
+    .section_content ul li {
+        width: 270px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .section_content ul li a .news_cartune {
+        height: 150px;
+    }
+
+    .form_left,
+    .form_right {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .main_form .div_but {
+        width: 125px;
+        margin: 0 auto;
+    }
+
+    .footer_text {
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        padding-top: 15px;
+        line-height: 20px;
+    }
+
+    .socials {
+        text-align: center;
+        margin-right: 0;
+    }
+}
